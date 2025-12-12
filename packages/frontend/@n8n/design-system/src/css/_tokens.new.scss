@@ -1,10 +1,10 @@
 /* stylelint-disable */
 @mixin theme {
 	// Brand
-	--background--brand: var(--color--orange-300);
-	--background--brand--hover: var(--color--orange-400);
-	--background--brand--active: var(--color--orange-500);
-	--background--brand--focus: var(--color--orange-400);
+	--background--brand: var(--color--sky-300);
+	--background--brand--hover: var(--color--sky-400);
+	--background--brand--active: var(--color--sky-500);
+	--background--brand--focus: var(--color--sky-400);
 	--background--brand--disabled: var(--color--neutral-200);
 
 	// Surface

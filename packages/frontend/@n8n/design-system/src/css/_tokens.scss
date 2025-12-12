@@ -8,7 +8,7 @@
  *
  * To maintain backwards compatibility for users (for example embed customers that customize n8n)
  * we use CSS variable fallbacks:
- * --color--primary: var(--color-primary, var(--color--orange-300))
+ * --color--primary: var(--color-primary, var(--color--sky-300))
  *
  * This ensures:
  * 1. New code using --color--primary--* works correctly
@@ -20,25 +20,25 @@
 
 @mixin theme {
 	/* stylelint-disable-next-line @n8n/css-var-naming */
-	--color--primary--h: 7;
+	--color--primary--h: 196;
 	/* stylelint-disable-next-line @n8n/css-var-naming */
-	--color--primary--s: 100%;
+	--color--primary--s: 90%;
 	/* stylelint-disable-next-line @n8n/css-var-naming */
-	--color--primary--l: 68%;
+	--color--primary--l: 16%;
 
 	// Primary tokens
 
 	// Primary
 	/* stylelint-disable-next-line @n8n/css-var-naming */
-	--color--primary--shade-1: var(--color-primary-shade-1, var(--color--orange-400));
+	--color--primary--shade-1: var(--color-primary-shade-1, var(--color--sky-400));
 	/* stylelint-disable-next-line @n8n/css-var-naming */
-	--color--primary: var(--color-primary, var(--color--orange-300));
+	--color--primary: var(--color-primary, var(--color--sky-300));
 	/* stylelint-disable-next-line @n8n/css-var-naming */
-	--color--primary--tint-1: var(--color-primary-tint-1, var(--color--orange-200));
+	--color--primary--tint-1: var(--color-primary-tint-1, var(--color--sky-200));
 	/* stylelint-disable-next-line @n8n/css-var-naming */
-	--color--primary--tint-2: var(--color-primary-tint-2, var(--color--orange-150));
+	--color--primary--tint-2: var(--color-primary-tint-2, var(--color--sky-150));
 	/* stylelint-disable-next-line @n8n/css-var-naming */
-	--color--primary--tint-3: var(--color-primary-tint-3, var(--color--orange-50));
+	--color--primary--tint-3: var(--color-primary-tint-3, var(--color--sky-50));
 
 	// Secondary
 	/* stylelint-disable-next-line @n8n/css-var-naming */
@@ -338,23 +338,23 @@
 
 	// Button primary
 	--button--color--text--primary: var(--color--neutral-white);
-	--button--border-color--primary: var(--color--orange-300);
-	--button--color--background--primary: var(--color--orange-300);
-	--button--border-color--primary--hover-active: var(--color--orange-400);
-	--button--color--background--primary--hover-active-focus: var(--color--orange-400);
+	--button--border-color--primary: var(--color--sky-300);
+	--button--color--background--primary: var(--color--sky-300);
+	--button--border-color--primary--hover-active: var(--color--sky-400);
+	--button--color--background--primary--hover-active-focus: var(--color--sky-400);
 	--button--outline-color--primary--focus: var(--color--orange-alpha-300);
 	--button--color--text--primary--disabled: var(--color--white-alpha-800);
-	--button--border-color--primary--disabled: var(--color--orange-200);
-	--button--color--background--primary--disabled: var(--color--orange-200);
+	--button--border-color--primary--disabled: var(--color--sky-200);
+	--button--color--background--primary--disabled: var(--color--sky-200);
 
 	// Button secondary
 	--button--color--text--secondary: var(--color--neutral-700);
 	--button--border-color--secondary: var(--color--neutral-300);
 	--button--color--background--secondary: var(--color--neutral-white);
-	--button--color--text--secondary--hover-active-focus: var(--color--orange-400);
-	--button--border-color--secondary--hover-active-focus: var(--color--orange-300);
-	--button--color--background--secondary--hover: var(--color--orange-50);
-	--button--color--background--secondary--active-focus: var(--color--orange-100);
+	--button--color--text--secondary--hover-active-focus: var(--color--sky-400);
+	--button--border-color--secondary--hover-active-focus: var(--color--sky-300);
+	--button--color--background--secondary--hover: var(--color--sky-50);
+	--button--color--background--secondary--active-focus: var(--color--sky-100);
 	--button--outline-color--secondary--focus: var(--color--neutral-200);
 	--button--color--text--secondary--disabled: var(--color--neutral-250);
 	--button--border-color--secondary--disabled: var(--color--neutral-250);
@@ -363,7 +363,7 @@
 	--button--color--text--highlight: var(--color--neutral-700);
 	--button--border-color--highlight: transparent;
 	--button--color--background--highlight: transparent;
-	--button--color--text--highlight--hover-active-focus: var(--color--orange-400);
+	--button--color--text--highlight--hover-active-focus: var(--color--sky-400);
 	--button--border-color--highlight--hover-active-focus: var(--color--neutral-125);
 	--button--color--background--highlight--hover: var(--color--neutral-125);
 	--button--color--background--highlight--active-focus: var(--color--neutral-125);
@@ -389,8 +389,8 @@
 
 	// Node Creator Button
 	--node-creator--button--color--text: var(--color--neutral-600);
-	--node-creator--button--color--text--hover: var(--color--orange-300);
-	--node-creator--button--border-color--hover: var(--color--orange-300);
+	--node-creator--button--color--text--hover: var(--color--sky-300);
+	--node-creator--button--border-color--hover: var(--color--sky-300);
 	--node-creator--button--color--background: var(--color--neutral-white);
 
 	// Table
@@ -695,7 +695,7 @@
 
 	// Params
 	--icon--color: var(--color--text--tint-1);
-	--icon--color--hover: var(--color--orange-300);
+	--icon--color--hover: var(--color--sky-300);
 
 	/* Ag Grid */
 	--grid--row--color--background--selected: var(--color--purple-200);

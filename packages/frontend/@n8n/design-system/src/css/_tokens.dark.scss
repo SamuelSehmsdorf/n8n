@@ -111,7 +111,7 @@
 	--node--icon--color--blue: #898fff;
 	--node--icon--color--light-blue: #58abff;
 	--node--icon--color--dark-blue: #7ba7ff;
-	--node--icon--color--orange-red: var(--color--orange-300);
+	--node--icon--color--orange-red: var(--color--sky-300);
 	--node--icon--color--pink-red: #f85d82;
 	--node--icon--color--red: var(--color--red-400);
 	--node--icon--color--light-green: #20b69e;
@@ -196,7 +196,7 @@
 	--button--color--text--secondary: var(--color--neutral-150);
 	--button--border-color--secondary: var(--color--foreground);
 	--button--color--background--secondary: var(--color--background--light-2);
-	--button--color--text--secondary--hover-active-focus: var(--color--orange-250);
+	--button--color--text--secondary--hover-active-focus: var(--color--sky-250);
 	--button--color--background--secondary--hover: var(--color--background--light-2);
 	--button--color--background--secondary--active-focus: var(--color--orange-alpha-100);
 	--button--outline-color--secondary--focus: var(--color--orange-alpha-300);
@@ -207,7 +207,7 @@
 	--button--color--text--highlight: var(--color--neutral-300);
 	--button--border-color--highlight: transparent;
 	--button--color--background--highlight: transparent;
-	--button--color--text--highlight--hover-active-focus: var(--color--orange-400);
+	--button--color--text--highlight--hover-active-focus: var(--color--sky-400);
 	--button--border-color--highlight--hover-active-focus: var(--color--neutral-700);
 	--button--color--background--highlight--hover: var(--color--neutral-700);
 	--button--color--background--highlight--active-focus: var(--color--neutral-700);
@@ -231,7 +231,7 @@
 	--node-creator--button--color--text--hover: var(
 		--button--color--text--secondary--hover-active-focus
 	);
-	--node-creator--button--border-color--hover: var(--color--orange-300);
+	--node-creator--button--border-color--hover: var(--color--sky-300);
 	--node-creator--button--color--background: var(--color--orange-alpha-100);
 
 	// Table
@@ -255,7 +255,7 @@
 	// NDV
 	--run-data--color--background: var(--color--neutral-900);
 	--ndvv2--run-data--color--background: var(--color--neutral-900);
-	--ndv--droppable-parameter--color: var(--color--orange-300);
+	--ndv--droppable-parameter--color: var(--color--sky-300);
 	--ndv--droppable-parameter--color--background: var(--color--orange-alpha-100);
 	--ndv--droppable-parameter--color--background--active: var(--color--green-alpha-100);
 	--ndv--back--color--text: var(--color--neutral-white);
@@ -516,7 +516,7 @@
 	--link--color--secondary--hover: var(--color--purple-500);
 	// Params
 	--icon--color: var(--color--text--tint-1);
-	--icon--color--hover: var(--color--orange-300);
+	--icon--color--hover: var(--color--sky-300);
 
 	--menu--color--background: var(--color--neutral-900);
 	--menu--color--background--hover: var(--color--neutral-700);

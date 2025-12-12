@@ -26,7 +26,7 @@ export const Gray = Template(
 );
 
 export const Primary = Template(
-	"<color-circles :colors=\"['--color--orange-400', '--color--orange-300', '--color--orange-250', '--color--orange-200', '--color--orange-150', '--color--orange-100', '--color--orange-50']\" />",
+	"<color-circles :colors=\"['--color--sky-400', '--color--sky-300', '--color--sky-250', '--color--sky-200', '--color--sky-150', '--color--sky-100', '--color--sky-50']\" />",
 );
 
 export const Secondary = Template(
